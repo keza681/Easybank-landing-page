@@ -1,13 +1,15 @@
-html, body{
-    /* padding: 0 3rem; */
+html,
+body {
+    padding: 0 3rem;
     margin: 0px;
 }
-*{
+
+* {
     font-size: 18px;
 
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +18,7 @@ html, body{
 
 .navbar__logo {
     padding: 1.5rem 0;
-  }
+}
 
 .navbar__links ul {
     display: flex;
@@ -30,16 +32,16 @@ html, body{
     display: flex;
   } */
 
-.navbar__links ul li a{
+.navbar__links ul li a {
     text-decoration: none;
     color: hsl(233, 26%, 24%);
 }
 
-.navbar__links ul li{
+.navbar__links ul li {
     list-style: none;
 }
 
-.navbar__button a{
+.navbar__button a {
     text-decoration: none;
 }
 
@@ -50,9 +52,9 @@ html, body{
     outline: none;
     color: white;
     /* display: none; */
-  }
+}
 
-.hero__left > a{
+.hero__left>a {
     text-decoration: none;
 }
 
@@ -105,7 +107,7 @@ html, body{
     background-size: cover;
     z-index: -10000;
     width: 70%;
-  }
+}
 
 /* .hero__right img {
     margin-top: -125px;
@@ -116,7 +118,7 @@ html, body{
 .easybanking {
     padding: 0 3rem;
     background-color: #fafafa;
-  }
+}
 
 .easybanking h2 {
     font-weight: 200;
@@ -139,7 +141,7 @@ html, body{
 
 .easybanking .grid__banking {
     text-align: left;
-  
+
 }
 
 .easybanking .grid__banking h3 {
@@ -181,7 +183,7 @@ html, body{
     padding: 0 1.5rem;
 }
 
-#image1{
+#image1 {
     height: 186.03px;
 }
 
@@ -202,18 +204,18 @@ html, body{
     color: #31d35c;
 }
 
-.footer{
+.footer {
     background-color: hsl(233, 26%, 24%);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.left-container{
+.left-container {
     display: flex;
     justify-content: space-between;
 }
 
-.links-area ul{
+.links-area ul {
     display: flex;
 }
